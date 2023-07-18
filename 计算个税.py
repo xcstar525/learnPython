@@ -21,7 +21,7 @@ elif sde > 36000 and sde <= 144000:
     sl = 0.10
     sskcs = 2520
 else:
-    sl = 0
+    sl = 0.03
     sskcs = 0
 
 se = sde * sl - sskcs #计算税额
